@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>In Vero Vacuo LLC</title>
+  <style>
+    body { margin:0; font-family:system-ui, sans-serif; background:#0b0c10; color:#eaeaea; }
+    header { padding:1rem 3rem; display:flex; justify-content:space-between; align-items:center; background:#101522; }
+    .logo { font-weight:700; letter-spacing:0.08em; text-transform:uppercase; }
+    nav a { margin-left:1.5rem; color:#eaeaea; text-decoration:none; font-size:0.9rem; }
+    .hero { padding:4rem 3rem; text-align:left; background:radial-gradient(circle at top, #1f2833, #0b0c10); }
+    .hero h1 { font-size:2.4rem; margin-bottom:1rem; }
+    .hero p { max-width:40rem; line-height:1.5; }
+    .btn { display:inline-block; margin-top:1.5rem; padding:0.7rem 1.4rem; border-radius:999px;
+           background:#66fcf1; color:#0b0c10; font-weight:600; text-decoration:none; }
+    .grid { display:flex; gap:1.5rem; padding:3rem; }
+    .card { flex:1; background:#1f2833; padding:1.5rem; border-radius:0.5rem; }
+    .card h2 { font-size:1.1rem; margin-bottom:0.8rem; }
+    .diagram { padding:3rem; text-align:center; background:#101522; }
+    .diagram img { max-width:700px; width:100%; border-radius:0.5rem; }
+    .about, .contact { padding:3rem; background:#0b0c10; }
+    footer { padding:1.5rem 3rem; font-size:0.8rem; background:#101522; color:#c5c6c7; }
+  <style>
+
+     .mapping-box {
+       display: inline-block;
+       text-align: center;
+       background:#1f2833;
+       padding:2rem;
+       border-radius:0.5rem;
+       margin-top:2rem;
+       }
+
+       .map-step {
+       font-size:1.1rem;
+       font-weight:600;
+       margin:0.5rem 0;
+       color:#66fcf1;
+       }
+
+       .map-arrow {
+       font-size:1.5rem;
+       color:#c5c6c7;
+       margin:0.5rem 0;
+
+  </style>
+
+</head>
+<body>
+  <header>
+    <div class="logo">In Vero Vacuo</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="index.html#methods">Methods</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <section class="hero">
+    <h1>Nonperturbative Higgs Vacuum & Quantum Dark-Energy Modes</h1>
+    <p>
+      In Vero Vacuo LLC investigates the structure and decay of the Higgs-sector vacuum,
+      combining lattice Euclidean methods with quantum simulation to explore ultra-light
+      scalar modes connected to dark energy.
+    </p>
+    <a class="btn" href="research.html">Explore the Research</a>
+  </section>
+
+  <section id="research" class="grid">
+    <div class="card">
+      <h2>Phase 1: Lattice Higgs Vacuum</h2>
+      <p>O(4) bounce construction, fluctuation spectra, determinant ratios, and RG-improved Higgs potentials.</p>
+    </div>
+    <div class="card" id="methods">
+      <h2>Phase 2: Quantum Spectra</h2>
+      <p>Quantum Hamiltonian encoding, QPE/VQE via Qiskit, extended Higgs sectors and portal fields.</p>
+    </div>
+    <div class="card">
+      <h2>Dark-Energy Focus</h2>
+      <p>Search for parametrically light modes and near-flat directions that can support dark-energy-like dynamics.</p>
+    </div>
+  </section>
+
+  <section class="diagram">
+  <h2>Mapping: Lattice → Quantum → Dark Energy</h2>
+  <p>
+    This schematic summarizes how our classical Euclidean-lattice workflow connects to
+    quantum-spectral analysis and ultimately to dark-energy mode identification. It mirrors
+    the structure of our two companion projects and shows how fluctuation operators,
+    Hamiltonian encodings, and low-mode extraction fit together.
+  </p>
+
+  <div class="mapping-box">
+    <div class="map-step">Fluctuation Operator (Lattice)</div>
+    <div class="map-arrow">↓</div>
+    <div class="map-step">Quantum Hamiltonian Encoding</div>
+    <div class="map-arrow">↓</div>
+    <div class="map-step">Low-Mode Extraction (QPE/VQE)</div>
+    <div class="map-arrow">↓</div>
+    <div class="map-step">Extended Higgs-Sector Hamiltonians</div>
+    <div class="map-arrow">↓</div>
+    <div class="map-step">Dark-Energy Mode Identification</div>
+  </div>
+
+  <a class="btn" href="research.html">Explore the Research</a>
+</section>
+
+  <section id="about" class="about">
+    <h2>About In Vero Vacuo</h2>
+    <p>
+      Founded by Merritt S. Cook, Ph.D., In Vero Vacuo LLC is an independent theoretical
+      research entity based in Moore, South Carolina, focused on Higgs-sector vacuum
+      structure, metastability, and nonperturbative methods bridging particle physics
+      and cosmology.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact & Collaboration</h2>
+    <p>Email: [merrittscook1955@gmail.com]</p>
+    <p>Location: Moore, South Carolina, USA</p>
+    <p>Open to collaborations with NSF/DOE programs, universities, and quantum-computing initiatives.</p>
+  </section>
+
+  <footer>
+    © In Vero Vacuo LLC • Nonperturbative Higgs Vacuum & Quantum Dark-Energy Research
+  </footer>
+</body>
+</html>
