@@ -48,8 +48,24 @@ body {
   text-decoration: none;
   color: #003366;
 }
+.sidebar {
+  width: 220px;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  padding: 20px;
+  background: #fafafa;
+  border-right: 1px solid #ddd;
+  height: calc(100% - 60px);
+  overflow-y: auto;
+}
 
 /* MAIN CONTENT */
+.main-content {
+  margin-left: 260px;
+  padding: 40px;
+  max-width: 900px;
+}
 .main-content {
   margin-left: 260px;
   padding: 40px;
