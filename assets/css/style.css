@@ -129,14 +129,15 @@ footer {
     align-items: center !important;
     width: 100% !important;
 }
+
 .sidebar img, .sidebar-brand img, .nav-links img, img[alt*="Logo"], .sidebar a:has(img) {
-    width: 160px !important;
-    min-width: 160px !important;
+    width: 180px !important;
+    min-width: 180px !important;
     height: auto !important;
     max-width: none !important;
     max-height: none !important;
     object-fit: contain !important;
     display: block !important;
-    margin: 15px auto !important;
-    flex: 0 0 160px !important;
+    margin: 20px auto !important;
+    flex: 0 0 180px !important;
 }
