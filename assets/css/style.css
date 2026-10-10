@@ -125,8 +125,8 @@ footer {
 }
 /* Force the navbar logo to stay small and neat */
 .navbar img, .sidebar img, .nav-links img {
-    width: 24px !important;
-    height: 24px !important;
+    width: 70px !important;
+    height: 70px !important;
     object-fit: contain !important;
     display: inline-block !important;
     vertical-align: middle !important;
