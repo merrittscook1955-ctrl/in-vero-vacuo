@@ -123,25 +123,11 @@ footer {
     text-align: center;
     color: #555;
 }
-/* Force the navbar logo to stay small and neat */
-.navbar img, .sidebar img, .nav-links img {
-    width: 70px !important;
-    height: 70px !important;
-    object-fit: contain !important;
-    display: inline-block !important;
-    vertical-align: middle !important;
-}
-.sidebar ul li img, .sidebar a img {
-    width: 72px !important;
-    height: 72px !important;
-    max-width: none !important;
-    object-fit: contain !important;
+.sidebar img, .sidebar-brand img, .nav-links img, img[alt*="Logo"] {
+    width: 100px !important;
+    height: auto !important;
+    max-width: 100px !important;
     display: block !important;
-    margin: 0 auto 10px auto !important;
-}
-.sidebar p:first-child img, .sidebar li:first-child img, .sidebar img {
-    width: 96px !important;
-    height: 96px !important;
-    max-width: none !important;
+    margin: 0 auto 15px auto !important;
     object-fit: contain !important;
 }
