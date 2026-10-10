@@ -123,10 +123,11 @@ footer {
     text-align: center;
     color: #555;
 }
-.sidebar img, .sidebar-brand img, .nav-links img, img[alt*="Logo"] {
+.sidebar img, .sidebar-brand img, .nav-links img, img[alt*="Logo"], .sidebar li img {
     width: 140px !important;
-    height: 140px !important;
+    height: auto !important;
     max-width: none !important;
+    min-width: 140px !important;
     object-fit: contain !important;
     display: block !important;
     margin: 0 auto 15px auto !important;
