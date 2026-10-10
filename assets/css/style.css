@@ -124,10 +124,10 @@ footer {
     color: #555;
 }
 .sidebar img, .sidebar-brand img, .nav-links img, img[alt*="Logo"] {
-    width: 150px !important;
-    height: auto !important;
-    max-width: 150px !important;
+    width: 140px !important;
+    height: 140px !important;
+    max-width: none !important;
+    object-fit: contain !important;
     display: block !important;
     margin: 0 auto 15px auto !important;
-    object-fit: contain !important;
 }
