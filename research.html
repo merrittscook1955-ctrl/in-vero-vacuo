@@ -2,133 +2,97 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Our Two Companion Projects – In Vero Vacuo LLC</title>
-
-  <style>
-    body {
-      margin:0;
-      font-family:system-ui, sans-serif;
-      background:#0b0c10;
-      color:#eaeaea;
-    }
-
-    header {
-      padding:1rem 3rem;
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      background:#101522;
-    }
-
-    .logo {
-      font-weight:700;
-      letter-spacing:0.08em;
-      text-transform:uppercase;
-    }
-
-    nav a {
-      margin-left:1.5rem;
-      color:#eaeaea;
-      text-decoration:none;
-      font-size:0.9rem;
-    }
-
-    .content {
-      padding:3rem;
-      max-width:800px;
-      margin:auto;
-    }
-
-    h1 {
-      font-size:2rem;
-      margin-bottom:1rem;
-    }
-
-    /* Centered project blocks */
-    .project-container {
-      max-width:700px;
-      margin:0 auto;
-    }
-
-    .project {
-      background:#1f2833;
-      padding:1.5rem;
-      border-radius:0.5rem;
-      margin:2rem 0;
-    }
-
-    .project a {
-      color:#66fcf1;
-      font-weight:600;
-      text-decoration:none;
-    }
-
-    .arrow {
-      font-size:1.5rem;
-      margin-right:0.5rem;
-      color:#66fcf1;
-    }
-
-    footer {
-      padding:1.5rem 3rem;
-      font-size:0.8rem;
-      background:#101522;
-      color:#c5c6c7;
-      margin-top:3rem;
-      width:100%;
-    }
-  </style>
+  <title>Research Overview — In Vero Vacuo</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <header>
-    <div class="logo">In Vero Vacuo</div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="index.html#methods">Methods</a>
-      <a href="index.html#about">About</a>
-      <a href="index.html#contact">Contact</a>
-    </nav>
-  </header>
+<nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="methods.html">Methods</a></li>
+    <li><a href="results.html">Results</a></li>
+    <li><a href="reports.html">Reports</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="collaborators.html">Collaborators</a></li>
+    <li><a href="news.html">News</a></li>
+  </ul>
+</nav>
 
-  <div class="content">
-    <h1>Our Two Companion Projects</h1>
-    <p>
-      These two projects form the unified research program of In Vero Vacuo LLC,
-      connecting lattice Euclidean methods with quantum spectral analysis and
-      dark-energy investigation.
-    </p>
+<div class="sidebar">
+  <h3>Sections</h3>
+  <ul>
+    <li><a href="research.html">Research Overview</a></li>
+    <li><a href="methods.html">Methods & Tools</a></li>
+    <li><a href="results.html">Results</a></li>
+    <li><a href="reports.html">Technical Reports</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="collaborators.html">Collaborators</a></li>
+    <li><a href="news.html">News & Updates</a></li>
+  </ul>
+</div>
 
-    <div class="project-container">
+<div class="main-content">
+  <h1>Research Overview</h1>
 
-      <div class="project">
-        <span class="arrow">→</span>
-        <strong>Full Spectrum Nonperturbative Higgs Vacuum Decay</strong><br>
-        <a href="Euclidean_spectral_analysis1.pdf" download>Download PDF</a>
-      </div>
+  <h2>Purpose of the Project</h2>
+  <p>
+    In Vero Vacuo investigates Higgs‑sector vacuum structure and metastability
+    using modern semiclassical and lattice‑based computational methods.
+    Traditional Coleman–Callan O(4) symmetry assumptions fail in many physically
+    relevant scenarios. This project develops tools that remain valid when
+    symmetry is broken, backgrounds are nontrivial, or multiple fields interact.
+  </p>
 
-      <div class="project">
-        <span class="arrow">→</span>
-        <strong>Quantum Simulation of Extended Higgs-Sector Spectra</strong><br>
-        <a href="Quantum_spectral_analysis1.pdf" download>Download PDF</a>
-      </div>
+  <p>
+    Our goal is to build a reliable, extensible framework for computing
+    decay‑rate prefactors in settings where analytic methods are insufficient.
+  </p>
 
-      <div class="project">
-        <span class="arrow">→</span>
-        <strong>Upcoming or Recent Presentations</strong><br>
-        <p>Download slides from "False Vacuum Decay: Overview and Outlook"</p>
-        <a href="False Vacuum Decay Overview.pdf" download>Download Presentation Slides (PDF)</a>
-      </div>
+  <h2>Why This Work Matters</h2>
+  <p>
+    Vacuum decay plays a central role in early‑universe cosmology, electroweak
+    stability, and phase transitions in gauge theories. However, the fluctuation
+    determinants that control decay‑rate prefactors are notoriously difficult to
+    compute outside idealized symmetric cases.
+  </p>
 
-    </div> <!-- closes project-container -->
+  <ul>
+    <li>Validated SU(2) lattice machinery</li>
+    <li>Stochastic‑Lanczos trace‑log evaluation</li>
+    <li>Nonlinear vertex construction</li>
+    <li>Brillouin‑zone matching</li>
+    <li>MS‑scheme cross‑checks</li>
+    <li>Spacing extrapolation</li>
+  </ul>
 
-  </div> <!-- closes content -->
+  <h2>Current Directions</h2>
+  <ul>
+    <li>Multi‑Field Vacuum Decay</li>
+    <li>Finite‑Temperature Backgrounds</li>
+    <li>Gauge‑Theory Structure</li>
+    <li>Determinant Evaluation</li>
+    <li>Continuum Comparison</li>
+  </ul>
 
-  <footer>
-    © In Vero Vacuo LLC • Moore, South Carolina
-  </footer>
+  <h2>Long‑Term Vision</h2>
+  <p>
+    The long‑term aim is to establish a robust computational framework for
+    metastability studies across a wide range of physical settings.
+  </p>
+</div>
+
+<footer>
+  © In Vero Vacuo — Higgs‑Sector Vacuum Research
+</footer>
 
 </body>
 </html>
+
+
+    
+
+
+      
