@@ -139,3 +139,9 @@ footer {
     display: block !important;
     margin: 0 auto 10px auto !important;
 }
+.sidebar p:first-child img, .sidebar li:first-child img, .sidebar img {
+    width: 96px !important;
+    height: 96px !important;
+    max-width: none !important;
+    object-fit: contain !important;
+}
