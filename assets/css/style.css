@@ -131,3 +131,11 @@ footer {
     display: inline-block !important;
     vertical-align: middle !important;
 }
+.sidebar ul li img, .sidebar a img {
+    width: 72px !important;
+    height: 72px !important;
+    max-width: none !important;
+    object-fit: contain !important;
+    display: block !important;
+    margin: 0 auto 10px auto !important;
+}
