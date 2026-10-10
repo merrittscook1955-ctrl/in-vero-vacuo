@@ -1,8 +1,6 @@
-<head>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-
+<a href="index.html">
+    <img src="assets/img/logo.png" alt="In Vero Vacuo Logo" width="80" style="width: 80px !important; height: 80px !important; display: block; margin: 0 auto 15px auto;">
+</a>
 
 <h1>Modern Lattice Methods for Quantum Field Theory</h1>
 
