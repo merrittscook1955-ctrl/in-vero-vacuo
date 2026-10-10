@@ -123,6 +123,12 @@ footer {
     text-align: center;
     color: #555;
 }
+.sidebar {
+    height: auto !important;
+    max-height: 90vh !important;
+    bottom: auto !important;
+    overflow-y: auto !important;
+}
 
 header img, .site-header img, header a img, [class*="logo"] img, [class*="brand"] img {
     width: 140px !important;
