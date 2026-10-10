@@ -123,21 +123,13 @@ footer {
     text-align: center;
     color: #555;
 }
-.sidebar .sidebar-brand, .sidebar .brand, .sidebar a:first-child {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    width: 100% !important;
-}
 
-.sidebar img, .sidebar-brand img, .nav-links img, img[alt*="Logo"], .sidebar a:has(img) {
-    width: 180px !important;
-    min-width: 180px !important;
+header img, .site-header img, header a img, [class*="logo"] img, [class*="brand"] img {
+    width: 140px !important;
     height: auto !important;
     max-width: none !important;
     max-height: none !important;
     object-fit: contain !important;
     display: block !important;
-    margin: 20px auto !important;
-    flex: 0 0 180px !important;
+    margin: 15px auto !important;
 }
