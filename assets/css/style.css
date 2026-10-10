@@ -1,36 +1,65 @@
+/* ===== Academic White Theme ===== */
+
+/* Layout */
 body {
-    font-family: Inter, sans-serif;
-    background: #F5F7FA;
-    color: #1F2A33;
-    line-height: 1.6;
-    margin: 40px auto;
-    max-width: 900px;
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia", serif;
+  background-color: #ffffff;
+  color: #222;
+  display: flex;
+  min-height: 100vh;
 }
 
-h1, h2, h3 {
-    color: #1F2A33;
-    font-weight: 600;
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background-color: #f7f7f7;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-a {
-    color: #3A7BD5;
-    text-decoration: none;
+.sidebar h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
 }
 
-a:hover {
-    text-decoration: underline;
+.sidebar ul {
+  list-style: none;
+  padding: 0;
 }
 
-code {
-    background: #EEE;
-    padding: 3px 6px;
-    border-radius: 4px;
+.sidebar li {
+  margin: 10px 0;
 }
+
+.sidebar a {
+  text-decoration: none;
+  color: #004080;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
 /* Navigation Bar */
 .navbar {
-  background-color: #1a1a1a;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
   padding: 10px 20px;
-  border-bottom: 2px solid #444;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .nav-links {
@@ -41,18 +70,22 @@ code {
   gap: 20px;
 }
 
-.nav-links li {
-  display: inline;
-}
-
 .nav-links a {
-  color: #f2f2f2;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 1.1em;
+  color: #004080;
+  font-weight: 600;
 }
 
 .nav-links a:hover {
-  color: #66ccff;
   text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #f2f2f2;
+  border-top: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
 }
